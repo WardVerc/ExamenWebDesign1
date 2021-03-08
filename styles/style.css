@@ -1,0 +1,88 @@
+
+.enterScore {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+p, h1 {
+    font-family: Verdana, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+#main {
+    width: 1200px;
+    /*hoe centreer je een div?? Dju toch*/
+    margin-left: 180px; /* slechte oplossing */
+}
+
+#header {
+    background-color: #266593;
+}
+
+#logos {
+    text-align: center;
+}
+
+.logoImages {
+    padding: 20px;
+}
+
+.fotoGetal {
+    display: inline-block;
+}
+
+.aantal {
+    color: white;
+}
+
+.wrapper {
+    border-style: solid;
+    border-color: #999;
+    border-width: 2px;
+    height: 500px;
+}
+
+#classList {
+    width: 66%;
+    display: inline-block;
+
+}
+
+#studentDetail {
+    width: 29%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* add this class when student is clicked */
+.studentDetailAdd {
+    background-color: #F7F8FA;
+    border-bottom-style: solid;
+    border-bottom-width: 5px;
+    border-bottom-color: #E4E5E7;
+    border-left-style: solid;
+    border-left-width: 5px;
+    border-left-color: #E4E5E7;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 1.125em;
+    padding: 10px;
+    display: inline-block;
+    width: 30%;
+}
+
+.ontbreek {
+    background-color: #912a65;
+    color: white;
+}
